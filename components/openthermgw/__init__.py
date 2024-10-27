@@ -15,7 +15,7 @@ opentherm_ns = cg.esphome_ns.namespace("OpenThermGateway")
 
 OpenThermGW = opentherm_ns.class_("OpenThermGateway", cg.Component)
 
-AUTO_LOAD = ['sensor', 'binary_sensor', 'switch', 'number']
+AUTO_LOAD = ['sensor', 'binary_sensor', 'text_sensor', 'switch', 'number']
 MULTI_CONF = True
 
 CONFIG_SCHEMA = cv.Schema(
