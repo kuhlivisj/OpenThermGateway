@@ -340,7 +340,7 @@ namespace esphome {
 		snprintf(szDate, sizeof(szDate), "%02d:%02d %02d/%02d/%04d", m_dateMinute, m_dateHour, m_dateDay, m_dateMonth, m_dateYear);
 		if(m_strDate!=szDate)
 		{
-			this->time_date_text_sensor->publish_state(szDate);
+			//this->time_date_text_sensor->publish_state(szDate);
 			m_strDate=szDate;
 		}			
 	}
